@@ -7,7 +7,7 @@ import ru.cherry.springhomework.domain.Book;
 import java.util.List;
 import java.util.Optional;
 
-@Repository
+
 public interface BookRepository extends JpaRepository<Book, Long> {
 
     List<Book> findBooksByTitle(String title);
